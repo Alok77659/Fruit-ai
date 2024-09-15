@@ -1,0 +1,63 @@
+.home-container {  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: center;  
+  min-height: 80vh;  
+  background: linear-gradient(to bottom right, #e0f7fa, #fce4ec);  
+  text-align: center;  
+  padding: 80px;
+}  
+
+h1 {  
+  font-size: 2.5rem;  
+  color: #6a1b9a; /* Change to your preferred color */  
+  margin-bottom: 10px;  
+}  
+
+h2 {  
+  font-size: 1.5rem;  
+  color: #ff4081; /* Change to your preferred color */  
+  margin-bottom: 30px;  
+}  
+
+.services-grid {  
+  display: grid;  
+  grid-template-columns: repeat(2, 1fr);  
+  gap: 20px;  
+  width: 80%;  
+}  
+
+.service-card {  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  padding: 20px;  
+  border-radius: 10px;  
+  text-decoration: none;  
+  color: white;  
+  font-size: 1.5rem;  
+  max-width: 400px;
+  max-height: 400px;
+  transition: transform 0.3s;  
+}  
+
+.service-card:hover {  
+  transform: scale(1.05);  
+}  
+
+.chat-card {  
+  background-color: #ffeb3b; /* Light yellow */  
+}  
+
+.translator-card {  
+  background-color: #64b5f6; /* Light blue */  
+}  
+
+.faq-card {  
+  background-color: #f48fb1; /* Light pink */  
+}  
+
+.about-card {  
+  background-color: #a5d6a7; /* Light green */  
+}
